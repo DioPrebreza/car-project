@@ -1,0 +1,100 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.divStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 1000px;
+}
+
+.nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  /* background-color: #a5a9a4;*/
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.nav a {
+  /* background-color: #fff; */
+  font-size: 1.3em;
+  border-color: #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav img {
+  width: 300px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 100px;
+  /* padding-right: 150px; */
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navLinks {
+  padding-right: 70px;
+}
+
+.login {
+  margin-top: 10px;
+  margin-right: 10px;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+}
+
+.login input {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+
+.login button {
+  width: 20%;
+  background-color: #363832;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.login button:hover,
+.login button:focus {
+  background-color: #4d4f48;
+}
