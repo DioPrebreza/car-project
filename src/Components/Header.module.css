@@ -1,15 +1,16 @@
-@import "react-slideshow-image/dist/styles.css";
-
-.divStyle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 1000px;
+.header {
+  height: 800px;
 }
 
 .nav {
-  color: #fff;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.12368697478991597) 11%,
+    rgba(0, 0, 0, 0.3533788515406162) 43%,
+    rgba(0, 0, 0, 0.5858718487394958) 100%
+  );
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,8 +32,8 @@
 }
 
 .nav img {
-  width: 300px;
-  height: 70px;
+  width: 20%;
+  /* height: 70px; */
   padding-top: 10px;
   padding-left: 100px;
   /* padding-right: 150px; */
@@ -53,12 +54,12 @@
 .login {
   margin-top: 10px;
   margin-right: 10px;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: row;
   /* align-items: center; */
 }
-
 .login input {
+  margin: 0px 5px 0px 5px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 5px;
   border: 2px solid #fff;
@@ -66,8 +67,8 @@
 }
 
 .login button {
-  width: 20%;
-  background-color: #363832;
+  /* width: 30%; */
+  background-color: #889c84;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -97,4 +98,61 @@
 .login button:hover,
 .login button:focus {
   background-color: #4d4f48;
+}
+
+.headerButton {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  align-items: center;
+  background-image: linear-gradient(
+    120deg,
+    rgba(180, 156, 128, 1) 14%,
+    rgba(136, 156, 132, 1) 85%
+  );
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.headerButton:active,
+.headerButton:hover {
+  outline: 0;
+}
+
+.headerButton span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.headerButton:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .headerButton {
+    font-size: 24px;
+    min-width: 196px;
+  }
 }
