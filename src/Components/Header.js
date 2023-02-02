@@ -12,9 +12,9 @@ const Header = () => {
       {/* <Container fluid="md"> */}
       <Slider />
       {/* </Container> */}
-      <button className={classes.headerButton}>
+      {/* <button className={classes.headerButton}>
         <span class={classes.btnText}>Vazhdoni më poshtë</span>
-      </button>
+      </button> */}
       <div style={{ height: "1000px" }}>yo</div>
     </div>
   );
