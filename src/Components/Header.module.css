@@ -7,14 +7,14 @@
 }
 
 .nav {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
+  background: rgb(216, 219, 215, 0.7);
+  /* background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.12368697478991597) 11%,
     rgba(0, 0, 0, 0.3533788515406162) 43%,
     rgba(0, 0, 0, 0.5858718487394958) 100%
-  );
+  ); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,10 +25,10 @@
   top: 0;
   left: 0;
   z-index: 5;
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
 .nav a {
-  /* background-color: #fff; */
   font-size: 1.3em;
   border-color: #fff;
   color: #fff;
@@ -36,11 +36,9 @@
 }
 
 .nav img {
-  width: 20%;
-  /* height: 70px; */
-  padding-top: 10px;
+  width: 300px;
+  padding-top: 5px;
   padding-left: 100px;
-  /* padding-right: 150px; */
 }
 
 .navList {
@@ -62,16 +60,9 @@
   flex-direction: row;
   /* align-items: center; */
 }
-.login input {
-  margin: 0px 5px 0px 5px;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 5px;
-  border: 2px solid #fff;
-  border-radius: 4px;
-}
 
 .login button {
-  /* width: 30%; */
+  width: 200px;
   background-color: #889c84;
   border-radius: 8px;
   border-style: none;
@@ -81,12 +72,12 @@
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   height: 40px;
   line-height: 20px;
   list-style: none;
-  margin: 0;
+  margin: 0px 100px 5px 0px;
   outline: none;
   padding: 10px 16px;
   position: relative;
