@@ -15,7 +15,6 @@ const Header = () => {
       {/* <button className={classes.headerButton}>
         <span class={classes.btnText}>Vazhdoni më poshtë</span>
       </button> */}
-      <div style={{ height: "1000px" }}>yo</div>
     </div>
   );
 };
