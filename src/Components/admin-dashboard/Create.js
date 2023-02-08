@@ -10,25 +10,62 @@ const options = [
 ];
 
 const Create = () => {
-  const { addDocument } = useFirestore("brands");
+  const { addDocument } = useFirestore("cars");
   const [brand, setBrand] = useState("");
+  const [type, setType] = useState("");
+  const [productionYear, setProductionYear] = useState("");
 
   const handleChange = (selectedOption) => {
     setBrand(selectedOption);
   };
 
-  const handleSubmit = async () => {
-    const brands = {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const car = {
       brand,
+      type,
+      productionYear,
     };
-    console.log(brands);
-    await addDocument(brands);
+    console.log(car);
+    await addDocument(car);
+
+    setBrand("");
+    setType("");
+    setProductionYear("");
   };
 
   return (
     <div>
-      <Select options={options} onChange={handleChange} />
-      <button onClick={handleSubmit}>Submit</button>
+      <h2>Shto veturën:</h2>
+      <form onSubmit={handleSubmit}>
+        <label>
+          <span>Marka e veturës</span>
+          <Select options={options} onChange={handleChange} />
+        </label>
+        <label>
+          <span>Lloji i veturës</span>
+          <input
+            required
+            type="text"
+            onChange={(e) => {
+              setType(e.target.value);
+            }}
+            value={type}
+          />
+        </label>
+        <label>
+          <span>Viti i prodhimit</span>
+          <input
+            required
+            type="text"
+            onChange={(e) => {
+              setProductionYear(e.target.value);
+            }}
+            value={productionYear}
+          />
+        </label>
+        <button onClick={handleSubmit}>Submit</button>
+      </form>
     </div>
   );
 };
