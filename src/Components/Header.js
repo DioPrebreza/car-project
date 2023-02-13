@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import classes from "./Header.module.css";
+import CarList from "./List/CarList";
 import Navbar from "./Navbar";
 import Slider from "./Slider";
 

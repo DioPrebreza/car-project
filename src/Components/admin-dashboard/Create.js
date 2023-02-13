@@ -14,6 +14,7 @@ const Create = () => {
   const [brand, setBrand] = useState("");
   const [type, setType] = useState("");
   const [productionYear, setProductionYear] = useState("");
+  const [engine, setEngine] = useState([]);
 
   const handleChange = (selectedOption) => {
     setBrand(selectedOption);
@@ -62,6 +63,17 @@ const Create = () => {
               setProductionYear(e.target.value);
             }}
             value={productionYear}
+          />
+        </label>
+        <label>
+          <span>Motorri</span>
+          <input
+            required
+            type="text"
+            onChange={(e) => {
+              setEngine(e.target.value);
+            }}
+            value={engine}
           />
         </label>
         <button onClick={handleSubmit}>Submit</button>
