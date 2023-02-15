@@ -1,10 +1,10 @@
 import React from "react";
-import Create from "../Components/admin-dashboard/Create";
+import Login from "../Components/admin-dashboard/Login";
 
 const Admin = () => {
   return (
     <div>
-      <Create />
+      <Login />
     </div>
   );
 };

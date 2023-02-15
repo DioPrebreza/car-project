@@ -1,30 +1,50 @@
 import React from "react";
-import { useCollection } from "../hooks/useCollection";
-import Dropdown from "./Dropdown";
 
 import classes from "./CarList.module.css";
 
-const CarList = () => {
-  const { documents, error } = useCollection("mercedes");
-  console.log(documents);
+const list = [
+  {
+    url: "https://audi.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:rdw}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/audi.png",
+  },
+  {
+    url: "https://volkswagen.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:rdw}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/vw.png",
+  },
+  {
+    url: "https://skoda.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:cz}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/skoda.png",
+  },
+  {
+    url: "https://seat.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:e}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/seat.png",
+  },
+  {
+    url: "https://opel.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;category:car}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/opel.png",
+  },
+  {
+    url: "https://bmw.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:bmw}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/bmw.png",
+  },
+];
 
+const CarList = () => {
   return (
-    <div>
-      <a href="https://audi.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:rdw}">
-        <img src="https://catalogs-parts.com/images/cp_brands_mini/audi.png" />
-      </a>
-      <a href="https://volkswagen.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:rdw}">
-        <img src="https://catalogs-parts.com/images/cp_brands_mini/vw.png" />
-      </a>
-      <a href="https://skoda.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:cz}">
-        <img src="https://catalogs-parts.com/images/cp_brands_mini/skoda.png" />
-      </a>
-      <a href="https://seat.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:e}">
-        <img src="https://catalogs-parts.com/images/cp_brands_mini/seat.png" />
-      </a>
-      <a href="https://opel.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;category:car}">
-        <img src="https://catalogs-parts.com/images/cp_brands_mini/opel.png" />
-      </a>
+    <div className={classes.listWrapper}>
+      <h1 className={classes.listTitle}>Zgjedh markën:</h1>
+      <p>Klikoni në logo</p>
+      <div className={classes.brands}>
+        {list.map((car) => {
+          return (
+            <div className={classes.listLogo}>
+              <a href={car.url}>
+                <img src={car.imgUrl} />
+              </a>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
