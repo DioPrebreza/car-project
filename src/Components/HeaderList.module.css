@@ -1,0 +1,24 @@
+.headerList {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 50px 0px 50px 0px;
+}
+
+.brands {
+  display: flex;
+  flex-flow: wrap;
+  width: 50%;
+}
+
+.listLogo a img {
+  width: 50px;
+}
+
+.listLogo a {
+  margin-left: 10px;
+}
+
+.serviceList {
+  /* list-style-image: url("../Images/tick.png"); */
+  list-style: none;
+}

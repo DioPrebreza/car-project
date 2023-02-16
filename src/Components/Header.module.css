@@ -3,7 +3,7 @@
 }
 
 .nav {
-  background: rgb(216, 219, 215, 0.7);
+  background: #fff;
   /* background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0) 0%,
@@ -24,10 +24,28 @@
   box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
 }
 
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin-top: 14px;
+}
+
+.divider {
+  width: 2px;
+  height: 30px;
+  background-color: #000;
+  /* margin: 0px 10px 0px 10px; */
+}
+
+.navLinks li {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .nav a {
   font-size: 1.3em;
   border-color: #fff;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -58,7 +76,7 @@
 }
 
 .login button {
-  width: 200px;
+  width: 100px;
   background-color: #889c84;
   border-radius: 8px;
   border-style: none;
