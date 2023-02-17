@@ -1,25 +1,59 @@
-.mainFooter{
-    background-color: #4d4f48;
-    color:white;
+.mainFooter {
+  background-color: #fff;
+  color: #000;
+  border-top: solid #999;
+  font-family: "Rubik";
 }
 
-.row{
-    display: flex;
-    
+.row {
+  display: flex;
 }
-.col{
-    flex: 33.33%;
-	padding: 15px;
-	margin: 10px;
-	text-align: center;
+.col {
+  flex: 33.33%;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
 }
 
-.col ul{
-    list-style: none;
-    text-align: center;
-    padding: 0;
+.col ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
 }
-.colSm{
-    margin: auto;
-    padding-bottom: 5px;
+.colSm {
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.footerLogo {
+  font-weight: bold;
+}
+
+.footerLogo p {
+  margin-left: 10px;
+}
+
+.footerImg {
+  width: 300px;
+}
+
+.footerContact h4 {
+  color: #428bca;
+}
+
+.footerMenu h4 {
+  color: #428bca;
+}
+
+.footerSocial h4 {
+  color: #428bca;
+}
+
+.footerSocial li {
+  /* margin-top: 20px; */
+}
+
+.socialImg {
+  width: 100px;
+  margin-bottom: 10px;
 }

@@ -28,6 +28,10 @@ const list = [
     imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/bmw.png",
   },
   {
+    url: "https://bmw-i.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:bmw-i}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/bmwi.png",
+  },
+  {
     url: "https://ford.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;category:car}",
     imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/ford.png",
   },
@@ -71,6 +75,30 @@ const list = [
     url: "https://alfa-romeo.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en}",
     imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/alfa_romeo.png",
   },
+  {
+    url: "https://mini.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:mini}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/mini.png",
+  },
+  {
+    url: "https://vauxhall.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;category:car}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/vauxhall.png",
+  },
+  {
+    url: "https://maybach.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eu;set_aggtyp:fg;wheel_class:car}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/maybach.png",
+  },
+  {
+    url: "https://infiniti.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:el}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/infiniti.png",
+  },
+  {
+    url: "https://lexus.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eu}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/lexus.png",
+  },
+  {
+    url: "https://abarth.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en}",
+    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/abarth.png",
+  },
 ];
 const HeaderList = () => {
   return (
@@ -89,12 +117,54 @@ const HeaderList = () => {
       <div className={classes.services}>
         <h4>Çfarë përfitoni nga databaza jonë</h4>
         <ul className={classes.serviceList}>
-          <li>temp</li>
-          <li>temp</li>
-          <li>temp</li>
-          <li>temp</li>
-          <li>temp</li>
-          <li>temp</li>
+          <li>
+            <img
+              src={require("../Images/Tick-icon.png")}
+              alt="tick icon"
+              className={classes.listImg}
+            />
+            Akses në llogarinë tuaj 24 orë / 7 ditë
+          </li>
+          <li>
+            <img
+              src={require("../Images/Tick-icon.png")}
+              alt="tick icon"
+              className={classes.listImg}
+            />
+            Përditësime javore të modeleve më të reja
+          </li>
+          <li>
+            <img
+              src={require("../Images/Tick-icon.png")}
+              alt="tick icon"
+              className={classes.listImg}
+            />
+            Mundësia për të bërë kërkim përmes VIN
+          </li>
+          <li>
+            <img
+              src={require("../Images/Tick-icon.png")}
+              alt="tick icon"
+              className={classes.listImg}
+            />
+            Platformë e optimizuar dhe e lehtë për përdorim
+          </li>
+          <li>
+            <img
+              src={require("../Images/Tick-icon.png")}
+              alt="tick icon"
+              className={classes.listImg}
+            />
+            Mundësia për të shikuar numrin OEM të pjesës
+          </li>
+          <li>
+            <img
+              src={require("../Images/Tick-icon.png")}
+              alt="tick icon"
+              className={classes.listImg}
+            />
+            Çmim fleksibël si: ditor, mujor apo vjetor
+          </li>
         </ul>
       </div>
     </div>

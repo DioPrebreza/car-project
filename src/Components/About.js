@@ -9,12 +9,11 @@ function About() {
       <div className={classes.text}>
         <h1> Rreth Nesh </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          Databazë e optimizuar e pjesëve të veturave duke përfshirë të gjitha
+          modelet dhe brendet, qëllimi i databazës është lehtësimi i punës së
+          auto servisave dhe auto pjesëve të ndryshme të cilat tashmë mund të
+          operojnë me databazën e krijuar tonë e cila është e përditësuar me
+          modelet më të fundit të veturave.
         </p>
       </div>
     </div>

@@ -18,7 +18,27 @@
   margin-left: 10px;
 }
 
+.services {
+  font-family: "Rubik";
+  font-size: 1.3em;
+}
+
+.services h4 {
+  font-size: 1.5em;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
 .serviceList {
   /* list-style-image: url("../Images/tick.png"); */
   list-style: none;
+}
+
+.serviceList li {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.listImg {
+  width: 30px;
 }

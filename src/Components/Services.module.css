@@ -1,0 +1,42 @@
+.services {
+  width: 90%;
+  margin: 50px auto 50px auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.serviceCard {
+  margin: 10px 34px 10px 50px;
+}
+
+.serviceImg1 {
+  margin-left: 20px;
+  width: 150px;
+}
+
+.serviceImg2 {
+  margin-left: 35px;
+  width: 168px;
+}
+
+.serviceImg3 {
+  margin-left: 10px;
+  width: 150px;
+}
+
+.serviceImg4 {
+  margin-left: 55px;
+  width: 150px;
+}
+
+.serviceImg5 {
+  margin-left: 25px;
+  width: 150px;
+}
+
+.serviceText {
+  margin-top: 10px;
+  font-family: "Rubik";
+  font-size: 1.1em;
+  font-weight: bold;
+}

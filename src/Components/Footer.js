@@ -9,28 +9,58 @@ function Footer() {
       <div className={classes.container}>
         <div className={classes.row}>
           <div className={classes.col}>
-            <h4>Company Name/Logo</h4>
-            <ul className={classes.listUnstyled}>
-              <li>044-111-222</li>
-              <li>Prishtine, Kosove</li>
-              <li>123 Rr.Gjorgj Fluidi</li>
-            </ul>
+            <div className={classes.footerLogo}>
+              <img
+                src={require("../Images/Logo-PNG.png")}
+                alt="footer-logo"
+                className={classes.footerImg}
+              />
+              <p>
+                Lider në industrinë e databazave në tregun e Kosovës duke ofruar
+                shërbimet më cilësore dhe korrekte
+              </p>
+            </div>
           </div>
           <div className={classes.col}>
-            <h4>Link Map</h4>
-            <ul className={classes.listUnstyled}>
-              <li>Link nr.1</li>
-              <li>Link nr.2</li>
-              <li>Link nr.3</li>
-            </ul>
+            <div className={classes.footerContact}>
+              <h4>Kontakti</h4>
+              <ul className={classes.listUnstyled}>
+                <li>+383-43-895-387</li>
+                <li>info@autocatalog24.com</li>
+                <li>Prishtine, Kosove</li>
+              </ul>
+            </div>
           </div>
           <div className={classes.col}>
-            <h4>Social media</h4>
-            <ul className={classes.listUnstyled}>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Email</li>
-            </ul>
+            <div className={classes.footerMenu}>
+              <h4>Menu</h4>
+              <ul className={classes.listUnstyled}>
+                <li>Abonimi</li>
+                <li>Kontakti</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+          </div>
+          <div className={classes.col}>
+            <div className={classes.footerSocial}>
+              <h4>Na ndiqni</h4>
+              <ul className={classes.listUnstyled}>
+                <li>
+                  <img
+                    src={require("../Images/Facebook.png")}
+                    alt="facebook"
+                    className={classes.socialImg}
+                  />
+                </li>
+                <li>
+                  <img
+                    src={require("../Images/Instagram.png")}
+                    alt="instagram"
+                    className={classes.socialImg}
+                  />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <hr />

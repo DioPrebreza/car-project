@@ -1,0 +1,46 @@
+.bmwImg {
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.firstCaption {
+  margin-bottom: 90px;
+}
+
+.firstCaption h1 {
+  font-family: "Russo One";
+  font-size: 3em;
+}
+
+.gseries {
+  color: #428bca;
+}
+
+.firstCaptionBtn {
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: -50px;
+  background-color: #428bca;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Russo One";
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
