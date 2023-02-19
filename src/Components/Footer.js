@@ -12,7 +12,7 @@ function Footer() {
             <div className={classes.footerLogo}>
               <img
                 src={require("../Images/Logo-PNG.png")}
-                alt="footer-logo"
+                alt='footer-logo'
                 className={classes.footerImg}
               />
               <p>
@@ -46,18 +46,30 @@ function Footer() {
               <h4>Na ndiqni</h4>
               <ul className={classes.listUnstyled}>
                 <li>
-                  <img
-                    src={require("../Images/Facebook.png")}
-                    alt="facebook"
-                    className={classes.socialImg}
-                  />
+                  <a
+                    href='https://www.facebook.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img
+                      src={require("../Images/Facebook.png")}
+                      alt='facebook'
+                      className={classes.socialImg}
+                    />
+                  </a>
                 </li>
                 <li>
-                  <img
-                    src={require("../Images/Instagram.png")}
-                    alt="instagram"
-                    className={classes.socialImg}
-                  />
+                  <a
+                    href='https://www.instagram.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img
+                      src={require("../Images/Instagram.png")}
+                      alt='instagram'
+                      className={classes.socialImg}
+                    />
+                  </a>
                 </li>
               </ul>
             </div>

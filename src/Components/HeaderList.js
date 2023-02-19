@@ -120,7 +120,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt="tick icon"
+              alt='tick icon'
               className={classes.listImg}
             />
             Akses në llogarinë tuaj 24 orë / 7 ditë
@@ -128,7 +128,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt="tick icon"
+              alt='tick icon'
               className={classes.listImg}
             />
             Përditësime javore të modeleve më të reja
@@ -136,7 +136,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt="tick icon"
+              alt='tick icon'
               className={classes.listImg}
             />
             Mundësia për të bërë kërkim përmes VIN
@@ -144,7 +144,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt="tick icon"
+              alt='tick icon'
               className={classes.listImg}
             />
             Platformë e optimizuar dhe e lehtë për përdorim
@@ -152,7 +152,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt="tick icon"
+              alt='tick icon'
               className={classes.listImg}
             />
             Mundësia për të shikuar numrin OEM të pjesës
@@ -160,7 +160,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt="tick icon"
+              alt='tick icon'
               className={classes.listImg}
             />
             Çmim fleksibël si: ditor, mujor apo vjetor

@@ -24,7 +24,7 @@ const list = [
     imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/opel.png",
   },
   {
-    url: "https://bmw.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:bmw}",
+    url: "https://bmw.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:bmw",
     imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/bmw.png",
   },
 ];
@@ -39,7 +39,7 @@ const CarList = () => {
           return (
             <div className={classes.listLogo}>
               <a href={car.url}>
-                <img src={car.imgUrl} />
+                <img src={`${car.imgUrl}`} />
               </a>
             </div>
           );

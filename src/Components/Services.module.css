@@ -3,6 +3,8 @@
   margin: 50px auto 50px auto;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  padding:40px 0;
 }
 
 .serviceCard {
@@ -11,27 +13,27 @@
 
 .serviceImg1 {
   margin-left: 20px;
-  width: 150px;
+  width: 120px;
 }
 
 .serviceImg2 {
   margin-left: 35px;
-  width: 168px;
+  width: 138px;
 }
 
 .serviceImg3 {
   margin-left: 10px;
-  width: 150px;
+  width: 120px;
 }
 
 .serviceImg4 {
   margin-left: 55px;
-  width: 150px;
+  width: 120px;
 }
 
 .serviceImg5 {
   margin-left: 25px;
-  width: 150px;
+  width: 120px;
 }
 
 .serviceText {
@@ -39,4 +41,5 @@
   font-family: "Rubik";
   font-size: 1.1em;
   font-weight: bold;
+  text-align: center;
 }
