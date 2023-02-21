@@ -1,118 +1,84 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import classes from "./HeaderList.module.css";
 
-const list = [
-  {
-    url: "https://audi.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:rdw}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/audi.png",
-  },
-  {
-    url: "https://volkswagen.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:rdw}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/vw.png",
-  },
-  {
-    url: "https://skoda.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:cz}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/skoda.png",
-  },
-  {
-    url: "https://seat.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;region:e}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/seat.png",
-  },
-  {
-    url: "https://opel.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;category:car}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/opel.png",
-  },
-  {
-    url: "https://bmw.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:bmw}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/bmw.png",
-  },
-  {
-    url: "https://bmw-i.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:bmw-i}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/bmwi.png",
-  },
-  {
-    url: "https://ford.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;category:car}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/ford.png",
-  },
-  {
-    url: "https://kia.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eur}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/kia.png",
-  },
-  {
-    url: "https://rolls-royce.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:rolls-royce}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/rolls_royce.png",
-  },
-  {
-    url: "https://mercedes.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eu;set_aggtyp:fg;wheel_class:car}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/merce.png",
-  },
-  {
-    url: "https://smart.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eu;set_aggtyp:fg;wheel_class:car}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/smart.png",
-  },
-  {
-    url: "https://nissan.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:el}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/nissan.png",
-  },
-  {
-    url: "https://honda.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/honda.png",
-  },
-  {
-    url: "https://toyota.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eu}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/toyota.png",
-  },
-  {
-    url: "https://hyundai.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eur}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/hyundai.png",
-  },
-  {
-    url: "https://fiat.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/fiat.png",
-  },
-  {
-    url: "https://alfa-romeo.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/alfa_romeo.png",
-  },
-  {
-    url: "https://mini.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;name:mini}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/mini.png",
-  },
-  {
-    url: "https://vauxhall.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;category:car}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/vauxhall.png",
-  },
-  {
-    url: "https://maybach.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eu;set_aggtyp:fg;wheel_class:car}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/maybach.png",
-  },
-  {
-    url: "https://infiniti.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:el}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/infiniti.png",
-  },
-  {
-    url: "https://lexus.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en;catalog:eu}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/lexus.png",
-  },
-  {
-    url: "https://abarth.catalogs-parts.com/#{client:sfjmr4;page:models;lang:en}",
-    imgUrl: "https://catalogs-parts.com/images/cp_brands_mini/abarth.png",
-  },
-];
 const HeaderList = () => {
   return (
     <div className={classes.headerList}>
       <div className={classes.brands}>
-        {list.map((car) => {
-          return (
-            <div className={classes.listLogo}>
-              <a href={car.url}>
-                <img src={car.imgUrl} />
-              </a>
-            </div>
-          );
-        })}
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/1.bmw.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/2.bmw-i.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/3. volkswagen.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/4.audi.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/5. seat.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/6. skoda.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/7. mercedes.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/8. maybach.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/9. smart.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/10. rolls royce.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/11. mini.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/12. opel.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/13. vauxhall.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/14. fiat.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/15. fiat pro.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/16. abarth.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/17. alfa romeo.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/18. toyota.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/19. ford.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/20. lexus.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/21. kia.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/22. nissan.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/23. lancia.jpg")} />
+        </Link>
+        <Link to="/List" className={classes.listLogo}>
+          <img src={require("../Images/car-logos/24. infinity.jpg")} />
+        </Link>
       </div>
       <div className={classes.services}>
         <h4>Çfarë përfitoni nga databaza jonë</h4>
@@ -120,7 +86,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt='tick icon'
+              alt="tick icon"
               className={classes.listImg}
             />
             Akses në llogarinë tuaj 24 orë / 7 ditë
@@ -128,7 +94,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt='tick icon'
+              alt="tick icon"
               className={classes.listImg}
             />
             Përditësime javore të modeleve më të reja
@@ -136,7 +102,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt='tick icon'
+              alt="tick icon"
               className={classes.listImg}
             />
             Mundësia për të bërë kërkim përmes VIN
@@ -144,7 +110,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt='tick icon'
+              alt="tick icon"
               className={classes.listImg}
             />
             Platformë e optimizuar dhe e lehtë për përdorim
@@ -152,7 +118,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt='tick icon'
+              alt="tick icon"
               className={classes.listImg}
             />
             Mundësia për të shikuar numrin OEM të pjesës
@@ -160,7 +126,7 @@ const HeaderList = () => {
           <li>
             <img
               src={require("../Images/Tick-icon.png")}
-              alt='tick icon'
+              alt="tick icon"
               className={classes.listImg}
             />
             Çmim fleksibël si: ditor, mujor apo vjetor

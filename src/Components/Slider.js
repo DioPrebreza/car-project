@@ -21,7 +21,7 @@ const Slider = () => {
             className={classes.bmwImg}
           />
           <h1>
-            Modelete më të <br /> reja të BMW <br />
+            Modelet më të <br /> reja të BMW <br />
           </h1>
           <h1 className={classes.gseries}>G-Series</h1>
           <button className={classes.firstCaptionBtn}>Abonohu tani</button>
@@ -34,7 +34,12 @@ const Slider = () => {
           alt="Second slide"
         />
 
-        <Carousel.Caption></Carousel.Caption>
+        <Carousel.Caption className={classes.firstCaption}>
+          <h1>
+            Gjeni pjesën e nevojshme <br /> brenda pak minutave <br />
+          </h1>
+          <button className={classes.firstCaptionBtn}>Gjeje tani</button>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -43,7 +48,12 @@ const Slider = () => {
           alt="Third slide"
         />
 
-        <Carousel.Caption></Carousel.Caption>
+        <Carousel.Caption className={classes.firstCaption}>
+          <h1>
+            Na ndiqni në <br /> Facebook & Instagram <br />
+          </h1>
+          <button className={classes.firstCaptionBtn}>Na ndiqni</button>
+        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );

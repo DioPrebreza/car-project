@@ -5,19 +5,21 @@ import Admin from "./Pages/Admin";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path='/' exact>
-          <Home />
-        </Route>
-        <Route path="/list">
-          <List />
-        </Route>
-        <Route path="/admin">
-          <Admin />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/list">
+            <List />
+          </Route>
+          <Route path="/admin">
+            <Admin />
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </div>
   );
 }
 
