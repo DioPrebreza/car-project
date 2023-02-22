@@ -1,5 +1,4 @@
 import React from "react";
-
 import classes from "./CarList.module.css";
 
 const list = [

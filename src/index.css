@@ -1,12 +1,17 @@
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif !important;
+  font-family: "Rubik", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: 'Rubik', sans-serif !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
 }
 
 /* :root{

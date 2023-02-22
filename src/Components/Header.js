@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { auth } from "../firebase/config";
 
 import classes from "./Header.module.css";
 import HeaderList from "./HeaderList";
@@ -15,6 +16,8 @@ const Header = () => {
         <span class={classes.btnText}>Vazhdoni më poshtë</span>
       </button> */}
       <HeaderList />
+      {auth.currentUser && <div>yes</div>}
+      {/* console.log(auth.currentUser) */}
     </div>
   );
 };
