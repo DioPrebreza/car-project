@@ -10,22 +10,27 @@ const Navbar = () => {
       <div className={classes.navList}>
         <ul className={classes.navLinks}>
           <li>
-            <Link to="/">Abonimi</Link>
+            <Link to="/pricing">Abonimi</Link>
           </li>
           <span className={classes.divider} />
           <li>
-            <Link to="/">Kontakti</Link>
+            <Link to="/contact">Kontakti</Link>
           </li>
           <span className={classes.divider} />
           <li>
-            <Link to="/">FAQ</Link>
+            <Link to="/faq">FAQ</Link>
           </li>
         </ul>
         <div className={classes.login}>
-          <button>
-            Kyqu
-            <img src={require("../Images/Login-icon.png")} alt="login-symbol" />
-          </button>
+          <Link to="/list">
+            <button>
+              Kyqu
+              <img
+                src={require("../Images/Login-icon.png")}
+                alt="login-symbol"
+              />
+            </button>
+          </Link>
         </div>
       </div>
     </div>

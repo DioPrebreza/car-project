@@ -6,6 +6,7 @@ import {
 } from "firebase/auth";
 import { auth } from "../../firebase/config";
 import { getAuth } from "firebase/auth";
+import { Link } from "react-router-dom";
 import classes from "../List/CarList.module.css";
 
 const list = [
@@ -192,7 +193,9 @@ const Login = () => {
               është markë e Reklamohu Sh.P.K
             </p>
             <p className={classes.policy}>
-              Kushtet e përdorimit | Politika e privatësisë
+              <Link to="/policy">
+                Kushtet e përdorimit | Politika e privatësisë
+              </Link>
             </p>
           </div>
         </div>

@@ -7,76 +7,76 @@ const HeaderList = () => {
   return (
     <div className={classes.headerList}>
       <div className={classes.brands}>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/1.bmw.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/2.bmw-i.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/3. volkswagen.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/4.audi.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/5. seat.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/6. skoda.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/7. mercedes.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/8. maybach.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/9. smart.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/10. rolls royce.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/11. mini.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/12. opel.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/13. vauxhall.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/14. fiat.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/15. fiat pro.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/16. abarth.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/17. alfa romeo.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/18. toyota.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/19. ford.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/20. lexus.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/21. kia.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/22. nissan.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/23. lancia.jpg")} />
         </Link>
-        <Link to="/List" className={classes.listLogo}>
+        <Link to="/list" className={classes.listLogo}>
           <img src={require("../Images/car-logos/24. infinity.jpg")} />
         </Link>
       </div>

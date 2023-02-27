@@ -3,6 +3,9 @@ import Home from "./Pages/Home";
 import List from "./Pages/List";
 import Admin from "./Pages/Admin";
 import Policy from "./Pages/Policy";
+import Contact from "./Pages/Contact";
+import Pricing from "./Pages/Pricing";
+import FAQ from "./Pages/FAQ";
 
 function App() {
   return (
@@ -20,6 +23,15 @@ function App() {
           </Route>
           <Route path="/policy">
             <Policy />
+          </Route>
+          <Route path="/pricing">
+            <Pricing />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/faq">
+            <FAQ />
           </Route>
         </Switch>
       </BrowserRouter>

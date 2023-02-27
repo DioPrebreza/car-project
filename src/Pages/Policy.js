@@ -1,23 +1,16 @@
 import React, { useState } from "react";
 import Navbar from "../Components/Navbar";
-import { Document, Page } from "react-pdf";
+import kushtet from "../PDFs/kushtet.pdf";
+
+import classes from "../Components/Policy.module.css";
 
 const Policy = () => {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-
-  const url = "../PDFs/kushtet.pdf";
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
-
   return (
     <div>
-      {/* <Navbar /> */}
-      <Document file={url} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={1} />
-      </Document>
+      <Navbar />
+      <div className={classes.kushtet}>
+        <iframe src={kushtet} width="100%" height="1000vh" />
+      </div>
     </div>
   );
 };
