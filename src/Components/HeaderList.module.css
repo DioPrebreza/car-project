@@ -7,12 +7,18 @@
 .brands {
   display: flex;
   flex-flow: wrap;
-  width: 50%;
+  width: 550px;
   padding-left: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.listLogo a img {
-  width: 50px;
+/* .listLogo {
+  width: 30px;
+} */
+
+.listLogo img {
+  width: 80px;
 }
 
 .listLogo a {

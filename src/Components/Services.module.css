@@ -1,45 +1,46 @@
 .services {
-  width: 90%;
+  width: 80%;
   margin: 50px auto 50px auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding:40px 0;
+  padding: 40px 0;
 }
 
 .serviceCard {
-  margin: 10px 34px 10px 50px;
+  margin: 10px 24px 10px 30px;
 }
 
 .serviceImg1 {
-  margin-left: 20px;
-  width: 120px;
+  margin-left: 40px;
+  width: 90px;
 }
 
 .serviceImg2 {
-  margin-left: 35px;
-  width: 138px;
+  margin-left: 50px;
+  margin-top: -15px;
+  width: 118px;
 }
 
 .serviceImg3 {
-  margin-left: 10px;
-  width: 120px;
+  margin-left: 30px;
+  width: 90px;
 }
 
 .serviceImg4 {
-  margin-left: 55px;
-  width: 120px;
+  margin-left: 65px;
+  width: 90px;
 }
 
 .serviceImg5 {
-  margin-left: 25px;
-  width: 120px;
+  margin-left: 45px;
+  width: 90px;
 }
 
 .serviceText {
   margin-top: 10px;
   font-family: "Rubik";
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   text-align: center;
 }

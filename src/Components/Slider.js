@@ -35,6 +35,11 @@ const Slider = () => {
         />
 
         <Carousel.Caption className={classes.firstCaption}>
+          <img
+            src={require("../Images/icon.png")}
+            alt="bmw group"
+            className={classes.bmwImg}
+          />
           <h1>
             Gjeni pjesën e nevojshme <br /> brenda pak minutave <br />
           </h1>
@@ -49,6 +54,11 @@ const Slider = () => {
         />
 
         <Carousel.Caption className={classes.firstCaption}>
+          <img
+            src={require("../Images/icon2.png")}
+            alt="bmw group"
+            className={classes.bmwImg}
+          />
           <h1>
             Na ndiqni në <br /> Facebook & Instagram <br />
           </h1>

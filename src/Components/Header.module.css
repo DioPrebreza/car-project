@@ -105,11 +105,6 @@
   touch-action: manipulation;
 }
 
-.login button:hover,
-.login button:focus {
-  background-color: #4d4f48;
-}
-
 .login button img {
   height: 50px;
   margin-left: -97px;

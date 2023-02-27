@@ -8,6 +8,7 @@
   background: url(../../Images/login-background.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 
@@ -19,6 +20,12 @@
 .info {
   margin-top: 60px;
   color: #428bca;
+  font-weight: bold;
+}
+
+.policy {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
 }
 
 .loginDivider {
@@ -41,10 +48,12 @@
 .login h3 {
   color: #fff;
   font-family: "Rubik";
+  font-size: 1.5em;
 }
 
 .login h5 {
   color: #fff;
+  font-size: 1em;
 }
 
 .login button {
@@ -120,7 +129,7 @@
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
-  min-height: 60px;
+  min-height: 30px;
   min-width: 0;
   outline: none;
   padding: 16px 24px;
@@ -130,7 +139,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 50%;
+  width: 30%;
   will-change: transform;
 }
 

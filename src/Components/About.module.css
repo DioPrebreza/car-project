@@ -9,7 +9,7 @@
 }
 
 .text {
-  font-family: "Russo One";
+  /* font-family: "Russo One"; */
   color: #fff;
   position: relative;
   top: 30%;
@@ -19,9 +19,12 @@
 .text h1 {
   /* font-weight: bold; */
   font-size: 1.5em;
+  font-family: "Russo One";
 }
 
 .text p {
+  font-family: "Rubik";
+  font-weight: bold !important;
   padding-top: 20px;
   font-weight: 100;
 }
