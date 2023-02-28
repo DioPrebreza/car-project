@@ -1,0 +1,126 @@
+.pricingWrapper {
+  margin-top: 60px;
+  width: 80%;
+  margin: 60px auto;
+}
+
+.pricingTitle {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pricingTitle h2 {
+  font-family: "Russo One";
+  padding-top: 60px;
+}
+
+.pricingCardsContainer {
+  width: 65%;
+  margin: 0px auto;
+  display: flex;
+}
+
+.pricingCard {
+  border: solid 2px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.pricingCard h5 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.pricingCard p {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.pricingCard h1 {
+  color: #428bca;
+  font-size: 3em;
+}
+
+.cardList {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  list-style: none;
+  text-align: left;
+}
+
+.cardList li {
+  margin: 5px 0px;
+}
+
+.pricingButton {
+  background-color: #428bca;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  width: 200px;
+  line-height: 20px;
+  list-style: none;
+  margin: 10px 0px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color: #fff;
+}
+
+.pricingButton:hover,
+.pricingButton:focus {
+  color: #fff;
+}
+
+.pricingCardMain {
+  z-index: 10;
+  background-color: #428bca;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  margin-left: -5px;
+  margin-right: -5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+}
+
+.pricingCardMain h5 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.pricingCardMain p {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.pricingCardMain h1 {
+  color: #428bca;
+  font-size: 3em;
+}
+
+.pricingText {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.pricingText h4 {
+  margin-top: 20px;
+}

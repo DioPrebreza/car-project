@@ -1,9 +1,14 @@
 import React from "react";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import Pricings from "../Components/Pricings";
 
 const Pricing = () => {
   return (
     <div>
-      <h1>Abonimi</h1>
+      <Navbar />
+      <Pricings />
+      {/* <Footer /> */}
     </div>
   );
 };
