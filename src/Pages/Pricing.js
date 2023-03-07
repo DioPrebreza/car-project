@@ -8,7 +8,7 @@ const Pricing = () => {
     <div>
       <Navbar />
       <Pricings />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

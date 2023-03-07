@@ -82,3 +82,48 @@
   border: solid #428bca;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 1250px) {
+  .cardContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  /* .contactCardMain {
+    width: 250px;
+  }
+
+  .contactCardMain h3 {
+    font-size: 1em;
+  } */
+  .cardContainer {
+    flex-flow: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contactCard {
+    width: 100%;
+  }
+  .contactCardMain {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .contactCardMain h3 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .contactCardMain h3 {
+    font-size: 0.8em;
+  }
+}

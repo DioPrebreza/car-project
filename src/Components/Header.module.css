@@ -114,3 +114,64 @@
   margin-left: -102px;
   margin-top: -13px;
 }
+
+.burger {
+  display: none;
+}
+
+.bars {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.burgerMenuHidden {
+  display: none;
+}
+
+.divider {
+  width: 80%;
+  height: 1px;
+  background-color: #000;
+}
+
+.burgerMenuShown {
+  background-color: #fff;
+
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+.burgerMenuShown ul {
+  list-style: none;
+}
+
+.burgerMenuShown ul li {
+  font-size: 1.5em;
+}
+
+.burgerMenuShown a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+@media screen and (max-width: 900px) {
+  .burger {
+    display: block;
+  }
+
+  .navList {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .nav img {
+    padding-left: 0px;
+    width: 200px;
+  }
+}

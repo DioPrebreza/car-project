@@ -63,3 +63,36 @@
   margin-left: 80px;
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 760px) {
+  .questionContainer {
+    width: 100%;
+  }
+
+  .question h3 {
+    font-size: 1.2em;
+    padding-top: 8px;
+  }
+
+  .answer h3 {
+    font-size: 1.2em;
+    padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .question h3 {
+    font-size: 1em;
+    padding-top: 8px;
+  }
+  .answer h3 {
+    font-size: 1em;
+    padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .question {
+    height: 50px;
+  }
+}

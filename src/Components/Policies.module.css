@@ -50,3 +50,15 @@
   margin-left: 20px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 536px) {
+  .policyNavbar {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .policyNavbar {
+    font-size: 1.2em;
+  }
+}

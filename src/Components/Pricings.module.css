@@ -132,3 +132,48 @@
 .pricingText h3 {
   font-family: "Russo One";
 }
+
+@media screen and (max-width: 1500px) {
+  .pricingWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .pricingCardsContainer {
+    width: 100%;
+  }
+  .pricingCard {
+    width: 400px;
+  }
+  .pricingCardMain {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  .pricingCard {
+    height: 550px;
+  }
+  .pricingCardMain {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .pricingCardMain {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pricingCardsContainer {
+    flex-flow: column;
+  }
+  .pricingCard {
+    width: 100%;
+  }
+  .pricingCardMain {
+    width: 100%;
+  }
+}

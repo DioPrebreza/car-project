@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import classes from "./Header.module.css";
 
 const Navbar = () => {
+  const [burger, setBurger] = useState(false);
+
+  const showBurgerMenu = () => {
+    if (!burger) {
+      setBurger(true);
+    }
+
+    if (burger) {
+      setBurger(false);
+    }
+  };
+
   return (
     <div className={classes.nav}>
       <Link to="/">
@@ -39,6 +53,45 @@ const Navbar = () => {
               />
             </button>
           </Link>
+        </div>
+      </div>
+      <div className={classes.burger}>
+        <FontAwesomeIcon
+          className={classes.bars}
+          icon={burger ? faTimes : faBars}
+          onClick={showBurgerMenu}
+        />
+        <div
+          className={
+            burger ? classes.burgerMenuShown : classes.burgerMenuHidden
+          }
+        >
+          <ul>
+            <li>
+              <Link to="/pricing">Abonimi</Link>
+            </li>
+            <div className={classes.divider}></div>
+            <li>
+              <Link to="/contact">Kontakti</Link>
+            </li>
+            <div className={classes.divider}></div>
+            <li>
+              <Link to="/faq">FAQ</Link>
+            </li>
+            <li>
+              <div className={classes.login}>
+                <Link to="/list">
+                  <button>
+                    Kyqu
+                    <img
+                      src={require("../Images/Login-icon.png")}
+                      alt="login-symbol"
+                    />
+                  </button>
+                </Link>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
