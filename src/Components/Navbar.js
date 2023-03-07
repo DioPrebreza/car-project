@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div className={classes.nav}>
-      <Link to="/">
+      <Link to="/" className={classes.logo}>
         <img src={require("../Images/Logo-PNG.png")} alt="logo" />
       </Link>
       <div className={classes.navList}>

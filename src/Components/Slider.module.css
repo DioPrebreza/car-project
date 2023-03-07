@@ -68,6 +68,12 @@
 
 @media screen and (max-width: 1444px) {
   .slider {
-    /* margin-top: 100px; */
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .firstCaption h1 {
+    font-size: 2em;
   }
 }

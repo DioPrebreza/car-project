@@ -170,7 +170,7 @@
 }
 
 @media screen and (max-width: 460px) {
-  .nav img {
+  .logo img {
     padding-left: 0px;
     width: 200px;
   }
