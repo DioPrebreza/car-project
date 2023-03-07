@@ -16,7 +16,7 @@ const Header = () => {
         <span class={classes.btnText}>Vazhdoni më poshtë</span>
       </button> */}
       <HeaderList />
-      {auth.currentUser && <div>yes</div>}
+      {/* {auth.currentUser && <div>yes</div>} */}
       {/* console.log(auth.currentUser) */}
     </div>
   );

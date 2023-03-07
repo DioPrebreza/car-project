@@ -1,9 +1,15 @@
 import React from "react";
 
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import ContactInfo from "../Components/ContactInfo";
+
 const Contact = () => {
   return (
     <div>
-      <h1>Kontakti</h1>
+      <Navbar />
+      <ContactInfo />
+      <Footer />
     </div>
   );
 };

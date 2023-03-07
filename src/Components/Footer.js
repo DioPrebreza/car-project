@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //styles
 import classes from "./Footer.module.css";
@@ -12,13 +13,35 @@ function Footer() {
             <div className={classes.footerLogo}>
               <img
                 src={require("../Images/Logo-PNG.png")}
-                alt='footer-logo'
+                alt="footer-logo"
                 className={classes.footerImg}
               />
               <p>
                 Lider në industrinë e databazave në tregun e Kosovës duke ofruar
                 shërbimet më cilësore dhe korrekte
               </p>
+            </div>
+          </div>
+          <div className={classes.col}>
+            <div className={classes.footerMenu}>
+              <h4>Menu</h4>
+              <ul className={classes.listUnstyled}>
+                <li>
+                  <Link to="/pricing" className={classes.contactLink}>
+                    Abonimi
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className={classes.contactLink}>
+                    Kontakti
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/faq" className={classes.contactLink}>
+                    FAQ
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
           <div className={classes.col}>
@@ -31,42 +54,33 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className={classes.col}>
-            <div className={classes.footerMenu}>
-              <h4>Menu</h4>
-              <ul className={classes.listUnstyled}>
-                <li>Abonimi</li>
-                <li>Kontakti</li>
-                <li>FAQ</li>
-              </ul>
-            </div>
-          </div>
+
           <div className={classes.col}>
             <div className={classes.footerSocial}>
               <h4>Na ndiqni</h4>
               <ul className={classes.listUnstyled}>
                 <li>
                   <a
-                    href='https://www.facebook.com/'
-                    target='_blank'
-                    rel='noreferrer'
+                    href="https://www.facebook.com/autocatalog24"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <img
                       src={require("../Images/Facebook.png")}
-                      alt='facebook'
+                      alt="facebook"
                       className={classes.socialImg}
                     />
                   </a>
                 </li>
                 <li>
                   <a
-                    href='https://www.instagram.com/'
-                    target='_blank'
-                    rel='noreferrer'
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <img
                       src={require("../Images/Instagram.png")}
-                      alt='instagram'
+                      alt="instagram"
                       className={classes.socialImg}
                     />
                   </a>
@@ -78,8 +92,13 @@ function Footer() {
         <hr />
         <div className={classes.row}>
           <p className={classes.colSm}>
-            &copy;{new Date().getFullYear()} 4th Dimension | All rights reserved
-            | Terms Of Service | Privacy
+            Të gjitha të drejtat e rezervuara &copy;{new Date().getFullYear()}{" "}
+            AutoCatalog24. Mundësuar dhe zhvilluar nga{" "}
+            <b>Reklamohu Marketing Agency</b> |
+            <Link to="/policy" className={classes.policyLink}>
+              {" "}
+              Kushtet e përdorimit | Politika e privatësisë
+            </Link>
           </p>
         </div>
       </div>

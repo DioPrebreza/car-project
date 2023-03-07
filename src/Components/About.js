@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //styles
 import classes from "./About.module.css";
@@ -15,6 +16,9 @@ function About() {
           operojnë me databazën e krijuar tonë e cila është e përditësuar me
           modelet më të fundit të veturave.
         </p>
+        <Link to="/contact" className={classes.contactButton}>
+          Na Kontaktoni
+        </Link>
       </div>
     </div>
   );

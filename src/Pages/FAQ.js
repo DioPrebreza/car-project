@@ -1,9 +1,14 @@
 import React from "react";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import FAQinfo from "../Components/FAQinfo";
 
 const FAQ = () => {
   return (
     <div>
-      <h1>FAQ</h1>
+      <Navbar />
+      <FAQinfo />
+      <Footer />
     </div>
   );
 };

@@ -5,14 +5,16 @@
   background-size: cover;
   margin-bottom: 50px;
   text-align: center;
-  height: 60vh;
+  height: 80vh;
 }
 
 .text {
   /* font-family: "Russo One"; */
+  width: 60%;
+  margin: 0px auto;
   color: #fff;
   position: relative;
-  top: 30%;
+  top: 15%;
   font-size: 2em;
 }
 
@@ -20,11 +22,84 @@
   /* font-weight: bold; */
   font-size: 1.5em;
   font-family: "Russo One";
+  margin-bottom: 70px;
 }
 
 .text p {
   font-family: "Rubik";
-  font-weight: bold !important;
+  font-weight: 400 !important;
   padding-top: 20px;
   font-weight: 100;
+}
+
+.contactButton {
+  background-color: #428bca;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 50px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contactButton:hover,
+.contactButton:focus {
+  color: #fff;
+}
+
+@media screen and (max-width: 1305px) {
+  .text {
+    top: 5%;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1034px) {
+  .text {
+    top: 2%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .text {
+    width: 100%;
+  }
+
+  .text h1 {
+    font-size: 1.2em;
+  }
+
+  .text p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .text p {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .text p {
+    font-size: 0.6em;
+  }
 }

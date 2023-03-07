@@ -36,20 +36,28 @@
   margin-left: 10px;
 }
 
+.listUnstyled {
+  font-family: "Rubik";
+  font-weight: 700;
+}
+
 .footerImg {
   width: 300px;
 }
 
 .footerContact h4 {
   color: #428bca;
+  font-family: "Russo One";
 }
 
 .footerMenu h4 {
   color: #428bca;
+  font-family: "Russo One";
 }
 
 .footerSocial h4 {
   color: #428bca;
+  font-family: "Russo One";
 }
 
 /* .footerSocial li {
@@ -58,5 +66,52 @@
 
 .socialImg {
   width: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.contactLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.contactLink:hover {
+  color: #000;
+}
+
+.policyLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.policyLink:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 1067px) {
+  .row {
+    /* flex-flow: column; */
+    width: 100%;
+  }
+
+  .container {
+    /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .row {
+    flex-flow: column;
+  }
+  .col {
+    flex: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 302px) {
+  .footerImg {
+    width: 200px;
+  }
 }

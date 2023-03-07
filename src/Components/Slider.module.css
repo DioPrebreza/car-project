@@ -1,3 +1,20 @@
+.slider {
+  height: 600px;
+  margin-top: 60px;
+}
+
+.sliderContainer {
+  /* height: 600px; */
+}
+
+.sliderCard {
+  height: 600px;
+}
+
+.sliderCard img {
+  height: 100%;
+}
+
 .bmwImg {
   width: 200px;
   margin-bottom: 50px;
@@ -43,4 +60,14 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.firstCaptionBtn:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1444px) {
+  .slider {
+    /* margin-top: 100px; */
+  }
 }
