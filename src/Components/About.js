@@ -8,7 +8,7 @@ function About() {
   return (
     <div className={classes.aboutWrapper}>
       <div className={classes.text}>
-        <h1> Rreth Nesh </h1>
+        <h1> RRETH NESH </h1>
         <p>
           Databazë e optimizuar e pjesëve të veturave duke përfshirë të gjitha
           modelet dhe brendet, qëllimi i databazës është lehtësimi i punës së

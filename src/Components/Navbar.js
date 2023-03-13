@@ -26,13 +26,13 @@ const Navbar = () => {
       <div className={classes.navList}>
         <ul className={classes.navLinks}>
           <li>
-            <Link to="/pricing" className={classes.navLink}>
+            <Link to="/abonimi" className={classes.navLink}>
               Abonimi
             </Link>
           </li>
           <span className={classes.divider} />
           <li>
-            <Link to="/contact" className={classes.navLink}>
+            <Link to="/kontakt" className={classes.navLink}>
               Kontakti
             </Link>
           </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className={classes.login}>
-          <Link to="/list">
+          <Link to="/hyrja">
             <button>
               Kyqu
               <img

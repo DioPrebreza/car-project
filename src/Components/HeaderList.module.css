@@ -1,7 +1,7 @@
 .headerList {
   display: flex;
   flex-flow: row wrap;
-  margin: 50px 0px 50px 0px;
+  margin: 40px 0px 20px 0px;
 }
 
 .brands {

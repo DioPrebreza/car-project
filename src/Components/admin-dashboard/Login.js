@@ -159,7 +159,9 @@ const Login = () => {
     <div>
       {!isLoggedIn && (
         <div className={classes.container}>
-          <img src={require("../../Images/Logo-PNG.png")} />
+          <Link to="/">
+            <img src={require("../../Images/Logo-PNG.png")} />
+          </Link>
           <div className={classes.login}>
             <h3>HYR NË DATABAZË</h3>
             <div className={classes.loginFields}>
@@ -183,7 +185,7 @@ const Login = () => {
             </button>
             <div className={classes.loginDivider}></div>
             <h5>
-              Nese keni harruar fjalëkalimin <br />
+              Nëse keni harruar fjalëkalimin <br />
               Kontaktoni administratën
             </h5>
           </div>
@@ -193,7 +195,7 @@ const Login = () => {
               është markë e Reklamohu Sh.P.K
             </p>
             <p className={classes.policy}>
-              <Link to="/policy">
+              <Link to="/kushtet-politika">
                 Kushtet e përdorimit | Politika e privatësisë
               </Link>
             </p>

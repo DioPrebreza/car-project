@@ -23,9 +23,13 @@
   font-weight: bold;
 }
 
-.policy {
-  text-decoration-line: underline;
-  text-decoration-thickness: 2px;
+.policy a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.policy a:hover {
+  color: #0f3e66;
 }
 
 .loginDivider {
@@ -132,7 +136,7 @@
   min-height: 30px;
   min-width: 0;
   outline: none;
-  padding: 16px 24px;
+  padding: 10px 24px;
   text-align: center;
   text-decoration: none;
   transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);

@@ -5,7 +5,7 @@
   background-size: cover;
   margin-bottom: 50px;
   text-align: center;
-  height: 80vh;
+  height: 50vh;
 }
 
 .text {
@@ -14,21 +14,20 @@
   margin: 0px auto;
   color: #fff;
   position: relative;
-  top: 15%;
-  font-size: 2em;
+  top: 10%;
+  font-size: 1.5em;
 }
 
 .text h1 {
   /* font-weight: bold; */
   font-size: 1.5em;
   font-family: "Russo One";
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .text p {
   font-family: "Rubik";
   font-weight: 400 !important;
-  padding-top: 20px;
   font-weight: 100;
 }
 
@@ -46,7 +45,7 @@
   height: 40px;
   line-height: 20px;
   list-style: none;
-  margin-top: 50px;
+  margin-top: 40px;
   outline: none;
   padding: 10px 16px;
   position: relative;

@@ -24,15 +24,15 @@ function Footer() {
           </div>
           <div className={classes.col}>
             <div className={classes.footerMenu}>
-              <h4>Menu</h4>
+              <h4>MENU</h4>
               <ul className={classes.listUnstyled}>
                 <li>
-                  <Link to="/pricing" className={classes.contactLink}>
+                  <Link to="/abonimi" className={classes.contactLink}>
                     Abonimi
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className={classes.contactLink}>
+                  <Link to="/kontakt" className={classes.contactLink}>
                     Kontakti
                   </Link>
                 </li>
@@ -46,18 +46,18 @@ function Footer() {
           </div>
           <div className={classes.col}>
             <div className={classes.footerContact}>
-              <h4>Kontakti</h4>
+              <h4>KONTAKTI</h4>
               <ul className={classes.listUnstyled}>
                 <li>+383-43-895-387</li>
                 <li>info@autocatalog24.com</li>
-                <li>Prishtine, Kosove</li>
+                <li>Prishtinë, Kosovë</li>
               </ul>
             </div>
           </div>
 
           <div className={classes.col}>
             <div className={classes.footerSocial}>
-              <h4>Na ndiqni</h4>
+              <h4>NA NDIQNI</h4>
               <ul className={classes.listUnstyled}>
                 <li>
                   <a
@@ -74,7 +74,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/autocatalog24"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -94,11 +94,7 @@ function Footer() {
           <p className={classes.colSm}>
             Të gjitha të drejtat e rezervuara &copy;{new Date().getFullYear()}{" "}
             AutoCatalog24. Mundësuar dhe zhvilluar nga{" "}
-            <b>Reklamohu Marketing Agency</b> |
-            <Link to="/policy" className={classes.policyLink}>
-              {" "}
-              Kushtet e përdorimit | Politika e privatësisë
-            </Link>
+            <b>Reklamohu Marketing Agency</b>
           </p>
         </div>
       </div>

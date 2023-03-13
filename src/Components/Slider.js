@@ -55,8 +55,30 @@ const Slider = () => {
         <Carousel.Item className={classes.sliderCard}>
           <img
             className="d-block w-100"
-            src={require("../Images/banner3.jpg")}
+            src={require("../Images/banner4.jpg")}
             alt="Third slide"
+          />
+
+          <Carousel.Caption className={classes.firstCaption}>
+            <img
+              src={require("../Images/volkswagen-logo.png")}
+              alt="bmw group"
+              className={classes.vwImg}
+            />
+            <h1>
+              Të gjitha veturat <br /> e fundit nga <br />
+            </h1>
+            <h1 className={classes.gseries}>VAG Group</h1>
+            <Link to="/pricing" className={classes.firstCaptionBtn}>
+              Abonohu tani
+            </Link>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className={classes.sliderCard}>
+          <img
+            className="d-block w-100"
+            src={require("../Images/banner3.jpg")}
+            alt="Fourth slide"
           />
 
           <Carousel.Caption className={classes.firstCaption}>

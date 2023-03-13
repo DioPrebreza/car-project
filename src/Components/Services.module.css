@@ -5,36 +5,47 @@
   flex-flow: row wrap;
   justify-content: center;
   padding: 40px 0;
+  text-align: center;
+}
+
+.bgBox {
+  background-color: #428bca;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 17px 0;
 }
 
 .serviceCard {
   margin: 10px 24px 10px 30px;
+  justify-content: center;
 }
 
 .serviceImg1 {
-  margin-left: 40px;
-  width: 90px;
+  width: 60px;
+  height: 70px;
 }
 
 .serviceImg2 {
-  margin-left: 50px;
-  margin-top: -15px;
-  width: 118px;
+  width: 60px;
+  height: 70px;
 }
 
 .serviceImg3 {
-  margin-left: 30px;
-  width: 90px;
+  width: 60px;
+  height: 70px;
 }
 
 .serviceImg4 {
-  margin-left: 65px;
-  width: 90px;
+  width: 60px;
+  height: 70px;
 }
 
 .serviceImg5 {
-  margin-left: 45px;
-  width: 90px;
+  width: 60px;
+  height: 70px;
 }
 
 .serviceText {
