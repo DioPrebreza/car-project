@@ -38,7 +38,7 @@ const Policies = () => {
         className={classes.termsContainer}
         style={policyVisible ? { display: "block" } : { display: "none" }}
       >
-        <h3>Kushtet e përdorimit</h3>
+        <h3>KUSHTET E PËRDORIMIT</h3>
         <p>
           Kushtet e Përdorimit përbëjnë një marrëveshje ligjërisht të
           detyrueshme të bërë midis Autocatalog24 (këtu e tutje, Ofruesi i

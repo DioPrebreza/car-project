@@ -1,13 +1,22 @@
 .policies {
   margin-top: 60px;
-  /* font-family: "Rubik"; */
+}
+
+.policies h3 {
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+}
+
+.policies h5 {
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
 }
 
 .policyNavbar {
   display: flex;
   color: #fff;
   width: 100%;
-  height: 60px;
+  height: 56px;
   background-color: #428bca;
   font-size: 1.5em;
   margin-bottom: 20px;
@@ -16,11 +25,13 @@
 .policyNavbarButton {
   margin: auto 10px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .privacyNavbarButton {
   margin: auto 10px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .termsContainer h3 {
@@ -33,7 +44,7 @@
 }
 
 .termsContainer h5 {
-  margin-left: 20px;
+  margin-left: 40px;
   font-weight: normal;
 }
 

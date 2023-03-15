@@ -26,7 +26,7 @@ const Slider = () => {
               Modelet më të <br /> reja të BMW <br />
             </h1>
             <h1 className={classes.gseries}>G-Series</h1>
-            <Link to="/pricing" className={classes.firstCaptionBtn}>
+            <Link to="/abonimi" className={classes.firstCaptionBtn}>
               Abonohu tani
             </Link>
           </Carousel.Caption>
@@ -47,7 +47,7 @@ const Slider = () => {
             <h1>
               Gjeni pjesën e nevojshme <br /> brenda pak minutave <br />
             </h1>
-            <Link to="/list" className={classes.firstCaptionBtn}>
+            <Link to="/hyrja" className={classes.firstCaptionBtn}>
               Gjeje tani
             </Link>
           </Carousel.Caption>
@@ -69,7 +69,7 @@ const Slider = () => {
               Të gjitha veturat <br /> e fundit nga <br />
             </h1>
             <h1 className={classes.gseries}>VAG Group</h1>
-            <Link to="/pricing" className={classes.firstCaptionBtn}>
+            <Link to="/abonimi" className={classes.firstCaptionBtn}>
               Abonohu tani
             </Link>
           </Carousel.Caption>

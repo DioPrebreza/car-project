@@ -16,7 +16,7 @@ function About() {
           operojnë me databazën e krijuar tonë e cila është e përditësuar me
           modelet më të fundit të veturave.
         </p>
-        <Link to="/contact" className={classes.contactButton}>
+        <Link to="/kontakt" className={classes.contactButton}>
           Na Kontaktoni
         </Link>
       </div>

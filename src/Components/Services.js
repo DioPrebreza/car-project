@@ -19,7 +19,7 @@ const Services = () => {
       <div className={classes.serviceCard}>
         <div className={classes.bgBox}>
           <img
-            src={require("../Images/ikona2.png")}
+            src={require("../Images/ikona3-(1).png")}
             alt="service"
             className={classes.serviceImg2}
           />

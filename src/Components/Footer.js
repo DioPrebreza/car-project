@@ -74,7 +74,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/autocatalog24"
+                    href="https://www.instagram.com/reklamohu"
                     target="_blank"
                     rel="noreferrer"
                   >
