@@ -86,7 +86,7 @@
   margin: auto auto auto auto;
   padding: 50px 50px 50px 50px;
   background-color: #428bca;
-  border-radius: 50px;
+  border-radius: 40px;
 }
 
 .listWrapper {
@@ -161,4 +161,36 @@
 .loginButton:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+@media only screen and (max-width: 600px) {
+  .login {
+    width: 320px;
+    height: 325px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .loginButton {
+    width: 100px;
+    margin-bottom: 0px;
+  }
+  .container img {
+    width: 75%;
+  }
+
+  .login h3 {
+    font-size: 1.2em;
+  }
+  .loginDivider {
+    margin: 10px 0px;
+  }
+  .loginFields {
+    width: 90%;
+  }
+  .login button {
+    margin-top: 15px;
+  }
+  .info {
+    margin-top: 100px;
+  }
 }

@@ -135,6 +135,12 @@
   .contactCardMain h3 {
     font-size: 1em;
   }
+  .map {
+    height: 250px;
+  }
+  .contactText {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 280px) {

@@ -68,11 +68,11 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <Link to="/pricing">Abonimi</Link>
+              <Link to="/abonimi">Abonimi</Link>
             </li>
             <div className={classes.divider}></div>
             <li>
-              <Link to="/contact">Kontakti</Link>
+              <Link to="/kontakt">Kontakti</Link>
             </li>
             <div className={classes.divider}></div>
             <li>
@@ -80,7 +80,7 @@ const Navbar = () => {
             </li>
             <li>
               <div className={classes.login}>
-                <Link to="/list">
+                <Link to="/hyrja">
                   <button>
                     Kyqu
                     <img

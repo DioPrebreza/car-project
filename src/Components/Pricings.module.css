@@ -133,15 +133,22 @@
   font-family: "Russo One";
 }
 
+.pricingText img {
+  text-align: justify;
+  padding-top: 20px;
+  display: inline-block;
+  vertical-align: center;
+}
+
 @media screen and (max-width: 1500px) {
   .pricingWrapper {
-    width: 100%;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 1110px) {
   .pricingCardsContainer {
-    width: 100%;
+    width: 90%;
   }
   .pricingCard {
     width: 400px;
@@ -153,7 +160,7 @@
 
 @media screen and (max-width: 822px) {
   .pricingCard {
-    height: 550px;
+    height: 450px;
   }
   .pricingCardMain {
     height: 600px;
@@ -162,7 +169,7 @@
 
 @media screen and (max-width: 614px) {
   .pricingCardMain {
-    height: 700px;
+    height: 500px;
   }
 }
 
@@ -172,8 +179,21 @@
   }
   .pricingCard {
     width: 100%;
+    margin-bottom: 20px;
   }
   .pricingCardMain {
     width: 100%;
+    margin: 20px 0px;
+  }
+
+  .pricingText img {
+    text-align: justify;
+    padding-top: 20px;
+    display: inline-block;
+    vertical-align: center;
+    width: 150px !important;
+  }
+  .pricingText {
+    width: 90%;
   }
 }

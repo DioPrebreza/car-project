@@ -165,7 +165,7 @@ const Pricings = () => {
           <img
             src={require("../Images/whatsapp-icon.png")}
             alt="whatsapp"
-            style={{ width: "250px" }}
+            style={{ width: "300px" }}
           />
         </ReactWhatsapp>
       </div>

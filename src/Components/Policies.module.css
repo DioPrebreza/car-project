@@ -50,6 +50,7 @@
 
 .privacyContainer h3 {
   text-align: center;
+  margin-left: 40px;
 }
 
 .privacyContainer p {
@@ -58,18 +59,21 @@
 }
 
 .privacyContainer h5 {
-  margin-left: 20px;
+  margin-left: 40px;
   font-weight: normal;
 }
 
 @media screen and (max-width: 536px) {
   .policyNavbar {
-    height: 80px;
+    height: 45.4px;
+    font-size: 1em;
   }
-}
 
-@media screen and (max-width: 310px) {
-  .policyNavbar {
-    font-size: 1.2em;
+  .policyNavbarButton {
+    margin: auto;
+  }
+  .privacyContainer h3 {
+    text-align: left;
+    margin-left: 40px;
   }
 }

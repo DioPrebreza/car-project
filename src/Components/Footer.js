@@ -74,7 +74,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/reklamohu"
+                    href="https://www.instagram.com/autocatalog24"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -94,7 +94,9 @@ function Footer() {
           <p className={classes.colSm}>
             Të gjitha të drejtat e rezervuara &copy;{new Date().getFullYear()}{" "}
             AutoCatalog24. Mundësuar dhe zhvilluar nga{" "}
-            <b>Reklamohu Marketing Agency</b>
+            <a href="https://www.instagram.com/reklamohu">
+              <b>Reklamohu Marketing Agency</b>
+            </a>
           </p>
         </div>
       </div>
